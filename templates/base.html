@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>The Portfolio of Jacobe28</title>
+		<style>
+		
+		@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+			html{
+			background-color:#121211;
+			width:100%;
+			color:white;
+			font-family: 'Abel', sans-serif;
+			}
+			*
+			{
+				margin: 0;
+				padding: 0;
+			}
+			body{
+			width:100%;
+			}
+			.container{
+				background-color:#151211;
+				width:90%;
+				height:100%;
+				margin:0 auto;
+				padding:10px 0px;
+			}
+			.header_section{
+			padding:20px;
+			
+			}
+			
+			.header{
+				font-size:2rem;
+				text-align:center;
+				
+				
+				
+				
+			}
+			
+			.sub_header{
+				f0nt-size:1rem;
+				text-align:center;
+				color:grey;
+				
+			}
+			
+			.even_better_header{
+				font-size:5rem;
+				text-align:center;
+				font-family: 'Berkshire Swash', cursive;
+				margin-bottom:30px;
+			}
+			
+			.gallery_section{
+				display:flex;
+				flex-direction:row;
+				flex-wrap:wrap;
+				width:100%;
+				justify-content: center;
+				padding-bottom:40px;
+			}
+			
+			.gallery_image{
+				width:320px;
+				height:240px;
+				position: relative;
+				cursor: pointer;
+				border:1px solid white;
+				margin:2px;
+			}
+			
+	img {
+		width:100%;
+		height:100%;
+		object-fit: cover;
+		}
+
+	.overlay {
+		  position: absolute;
+		  width: 100%;
+		  height: 100%;
+		  background: rgba(57, 57, 57, 0.502);
+		  top: 0;
+		  left: 0;
+		  transform: scale(0);
+		  transition: all 0.2s 0.1s ease-in-out;
+		  color: #fff;
+		  /* center overlay text */
+		  display: flex;
+		  align-items: center;
+		  justify-content: center;
+	}
+
+	.gallery_image:hover .overlay{
+		transform:scale(1);
+	}
+	
+	.social_list{
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+	}
+	.social_link{
+		margin:5px;
+		text-decoration:none;
+		color:white;
+	}	
+	.menu_list{
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+		padding:20px 0px;
+	}
+	.menu_link{
+		margin:10px 20px;
+		text-decoration:none;
+		color:white;
+		font-size:1.5rem;
+	}
+	
+	.call_to_action_section{
+		width:100%;
+		background-color:#131313;
+		padding:20px 0px;
+	}
+	.call_to_action{
+		font-size:1.5rem;
+		color:#efefef;
+		font-family: 'Berkshire Swash', cursive;
+		text-align:center;
+		padding-bottom:20px;
+	}
+	.pitch{
+		width:40%;
+		margin:0 auto;
+		text-align:center;
+	}
+	
+	.Thank_you_section{
+		width:100%;
+		background-color:#212121;
+		padding:20px 0px;
+	}
+	.thank_you_text{
+		width:100%;
+		font-size:2rem;
+				text-align:center;
+				font-family: 'Berkshire Swash', cursive;
+	}
+	
+	.footer_section{
+		width:100%;
+		padding:20px 0px;
+	}
+	
+	.footer{
+	width:100%;
+	text-align:center;
+	}
+		</style>
+	</head>
+	<body>
+			
+			<div class="container">
+		<section class="header_section">
+			<h1 class="header">JACOBE28</h1>
+			<h2 class="sub_header">GRAPHICS PROGRAMMING DISCOVERIES</h2>
+			<ul class="social_list">
+				<a class="social_link" href="#">FB</a>
+				<a class="social_link" href="#">LI</a>
+				<a  class="social_link" href="#">TW</a>
+				<a  class="social_link" href="#">YT</a>
+			</ul>
+		</section>
+		
+		<section class="menu">
+		<h2 class="even_better_header">Online Portfolio</h2>
+		<hr>
+		<ul class="menu_list">
+				<a class="menu_link" href="#">Terrain</a>
+				<a class="menu_link" href="#">Math Based</a>
+				<a  class="menu_link" href="#">Modeling</a>
+				<a  class="menu_link" href="#">Abstract Art</a>
+			</ul>
+		</section>
+		</section>
+		
+		<section class="gallery_section">
+		
+		<div class="gallery_image">
+			<a href="https://www.qries.com/">
+				<img src="./static/images/neueProfil.png"></img>
+				<div class="overlay"><span>BARE SKULL</span></div>
+			</a>
+		</div>
+		
+		<div class="gallery_image">
+			<a href="https://www.qries.com/">
+				<img src="./static/images/neueProfil.png"></img>
+				<div class="overlay"><span>BARE SKULL</span></div>
+			</a>
+		</div>
+		
+		<div class="gallery_image">
+			<a href="https://www.qries.com/">
+				<img src="./static/images/neueProfil.png"></img>
+				<div class="overlay"><span>BARE SKULL</span></div>
+			</a>
+		</div>
+		
+		<div class="gallery_image">
+			<a href="https://www.qries.com/">
+				<img src="./static/images/neueProfil.png"></img>
+				<div class="overlay"><span>BARE SKULL</span></div>
+			</a>
+		</div>
+		
+		</section>
+		
+		<section class="Thank_you_section">
+			<h2 class="thank_you_text">Thanks for stopping by!!</h2>
+		</section>
+		<section class="call_to_action_section">
+			<h4 class="call_to_action">Let's Do Business!</h2>
+			<p class="pitch">
+				I work with optimistic, innovative thought leaders who are
+				exploring new frontiers of additive manufacturing, graphics programming, 
+				design, and art. Hurry and contact me before someone else does!
+			</p>
+		</section>
+		<section class="footer_section">
+		<h4 class="footer">Copywrite 2022 Jacobe Twenty Eight</h4>
+		</section>
+		</div>
+		<script src="./static/scripts/three.js"></script>
+		<script src="./static/scripts/orbitControls.js"></script>
+
+		
+	</body>
+</html>
